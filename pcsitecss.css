@@ -1,0 +1,1492 @@
+@charset "UTF-8";
+
+/*HOME PAGE*/
+
+body{
+	background: black;
+	margin:20px;
+	overflow-x:hidden;
+}
+
+a.home{
+	text-decoration: none;
+	color:white; 
+}
+
+a.home:hover{
+	position:relative;
+	color:#b366ff;
+	font-family:quicksand;
+	font-style: none;
+	font-size: 11vw;
+}
+
+@font-face{
+	font-family: rememory;
+	src: url(rememory.ttf);
+}
+ 
+@keyframes fadeInPics{
+	0%{
+		opacity:0;
+	}
+
+	50%{
+		opacity:1;
+	} 
+	
+	100%{
+
+		opacity:0;
+	}
+}
+
+.logo{
+	position:absolute;
+	z-index: 0;
+	top:6vh;
+	left:2vw;
+	animation-name:fadeInPics;
+	animation-duration: 1s;
+	animation-fill-mode: forwards;
+	animation-timing-function: ease-in-out; 
+}
+
+#logoWhite{
+	position:relative;
+	width:24vw;
+}
+#logoViolet{
+	position:relative; 
+	width:24vw;
+}
+#logoIndigo{
+	position:relative; 
+	width:24vw;
+}
+#logoBlue{
+	position:relative; 
+	width:24vw;
+}
+#logoGreen{
+	position:relative; 
+	width:24vw;
+}
+#logoYellow{
+	position:relative; 
+	width:24vw;
+}
+#logoOrange{
+	position:relative; 
+	width:24vw;
+}
+#logoRed{
+	position:relative; 
+	width:24vw;
+}
+
+.navhome{
+	position: absolute;
+	z-index: 1; 
+	display:block;
+	float:left; 
+	top:1vh;
+	left:8vw;
+}
+
+.navhome li{
+	position:relative;
+	list-style: none;
+	text-align: left;
+	font-family: rememory;
+	font-size: 13vw;
+	font-style: normal;
+} 
+
+@keyframes fadeIn{ 
+	0%{
+		opacity:0;
+	}
+
+	50%{
+		opacity:0;
+	} 
+	
+	100%{
+
+		opacity:1;
+	}
+}
+
+.fadeIn{
+	animation:fadeIn;
+	animation-duration:1.8s;
+	animation-iteration-count: 1;
+	animation-direction: normal;
+}
+
+.about{
+	position:absolute;
+	z-index: 2;
+	width:30vw;
+	display:block;
+	float:right;
+	font-family:quicksand;
+	font-size:1.8vw;
+	color:white;
+	top:40vh;
+	right:8vw;
+}
+
+/*END OF INDEX CSS*/
+
+
+
+
+/*PORTFOLIO*/
+
+a.port{
+	position:relative;
+	text-decoration: none;
+	color:white;
+}
+
+a.port:hover{
+	position:relative;
+	color:#b366ff;
+	font-style: none;
+	font-size: 5vw;
+}
+
+.portLinks{
+	position:relative;
+	z-index: 1;
+	display:block;
+	float:left;
+}
+
+.portLinks li{
+	list-style: none;
+	text-align: left;
+	font-family:quicksand;
+	font-size:5vh;
+}
+
+.portlogo{
+	position: relative;
+	width:7vw;
+	height:7vh;
+	display:block;
+	float:right;
+	right:0.8vw;
+	top:1vh;
+}
+
+.portRem{
+	width:50vw;
+	position: absolute;
+	display: grid;
+	left:23.6vw;
+	padding:20px;
+}
+
+.portKE{
+	width:50vw;
+	position: absolute;
+	display: grid;
+	z-index: 2;
+	top:107vh; 
+	left:23.6vw;
+	padding:20px;
+} 
+
+.port5bbc{
+	width:50vw;
+	position: absolute;
+	display: grid;
+	z-index: 2;
+	top:193vh;
+	left:23.6vw;
+	padding:20px;
+}
+
+.portNP{
+	width:50vw;
+	position: absolute;
+	display: grid;
+	z-index: 3;
+	top:260vh;
+	left:23.6vw; 
+	padding:20px;
+} 
+
+.portEames{
+	width:50vw;
+	position: absolute;
+	display: grid;
+	z-index: 3;
+	top:346vh;
+	left:23.6vw; 
+	padding:20px;
+}
+
+	/*Rememory*/
+
+		.rememoryTitle{
+			width:auto;
+			position: absolute;
+			display:block;
+			font-family:quicksand;
+			font-size:7vw;
+			color:white;
+			text-align:center;
+			top:-10vh;
+			left:31vw;
+		}
+
+		.rememoryExp{
+			width:50vw;
+			position:absolute;
+			display:block;
+			font-family:quicksand;
+			font-size:1.5vw;
+			color:white;
+			left:4vw;
+		}
+
+		.rememoryPic1{
+			width:30vw;
+			position: absolute;
+			display: block;
+			float:center;
+			left:65vw;
+			top:36vh;
+		}
+
+		.rememoryPic2{
+			width:30vw;
+			position: absolute;
+			display: block;
+			float:center;
+			left:5vw;
+			top:100vh;
+		}
+
+		.rememoryPic3{
+			width:30vw;
+			position: absolute;
+			display: block;
+			float:center;
+			left:65vw;
+			top:100vh;
+		}
+
+		.rememoryPic4{
+			width:75vw;
+			position: absolute;
+			display: block;
+			float:center;
+			left:12vw;
+			top:168vh;
+		}
+
+		.rememoryPic5{
+			width:40vw;
+			position: absolute;
+			display: block;
+			float:center;
+			left:5vw;
+			top:300vh;
+		}
+
+		.rememoryPic6{
+			width:75vw;
+			position: absolute;
+			display: block;
+			float:center;
+			left:12vw;
+			top:355vh;
+		}
+
+		.rememoryPic7{
+			width:30vw;
+			position: absolute;
+			display: block;
+			float:center;
+			left:20vw;
+			top:471vh;
+		}
+
+		.rememoryPic8{
+			width:30vw;
+			position: absolute;
+			display: block;
+			float:center;
+			left:50vw;
+			top:471vh;
+		}
+
+		.rememoryPic9{
+			width:30vw;
+			position: absolute;
+			display: block;
+			float:center;
+			left:5vw;
+			top:530vh;
+		}
+
+		.rememoryPic10{
+			width:30vw;
+			position: absolute;
+			display: block;
+			float:center;
+			left:35vw;
+			top:530vh;
+		}
+
+		.rememoryPic11{
+			width:30vw;
+			position: absolute;
+			display: block;
+			float:center;
+			left:65vw;
+			top:530vh;
+		}
+
+		.rememoryPic12{
+			width:75vw;
+			position: absolute;
+			display: block;
+			float:center;
+			left:12vw;
+			top:614vh;
+		}
+
+		.rememoryPic13{
+			width:75vw;
+			position: absolute;
+			display: block;
+			float:center;
+			left:12vw;
+			top:730vh;
+		}
+
+		.rememoryPic14{
+			width:75vw;
+			position: absolute;
+			display: block;
+			float:center;
+			left:12vw;
+			top:852vh;
+		}
+
+		.rememoryPic15{
+			width:75vw;
+			position: absolute;
+			display: block;
+			float:center;
+			left:12vw;
+			top:969vh;
+		}
+
+		#rememoryExpPos1{
+			top:40vh;
+		}
+
+		#rememoryExpPos2{
+			top:64vh;
+		}
+
+		#rememoryExpPos3{
+			width:22vw;
+			top:112vh;
+			left:39.5vw;
+		}
+
+		#rememoryExpPos4{
+			width:60vw;
+			top:256vh;
+			left:20vw;
+		}
+
+		#rememoryExpPos5{
+			width:60vw;
+			top:275vh;
+			left:20vw;
+		}
+
+		#rememoryExpPos6{
+			width:40vw;
+			top:312vh;
+			left:53vw;
+		}
+
+		#rememoryExpPos7{
+			width:75vw;
+			top:446vh;
+			left:12.2vw;
+		}
+
+		#rememoryExpPos8{
+			width:75vw;
+			top:510vh;
+			left:12.2vw;
+		}
+
+		#rememoryExpPos9{
+			width:75vw;
+			top:570vh;
+			left:12.2vw;
+		}
+
+		#rememoryExpPos10{
+			width:75vw;
+			top:593vh;
+			left:12.2vw;
+		}
+
+		#rememoryExpPos11{
+			width:75vw;
+			top:705vh;
+			left:12.2vw;
+		}
+
+		#rememoryExpPos12{
+			width:75vw;
+			top:822vh;
+			left:12.2vw;
+		}
+
+		#rememoryExpPos13{
+			width:75vw;
+			top:944vh;
+			left:12.2vw;
+		} 
+
+		#flipthru{
+			position:absolute;
+			width:75vw;
+			top:1065.1vh;
+			left:12vw;
+		}
+
+	/*END REMEMORY*/
+
+	/*KORKS AND KORKEASE*/
+
+		.KorksTitle{
+			width:auto;
+			position: absolute;
+			display:block;
+			font-family:quicksand;
+			font-size:6vw;
+			color:white;
+			text-align:center;
+			top:-8vh;
+			left:19vw;
+		}
+
+		.KorksExp{
+			width:50vw;
+			position:absolute;
+			display:block;
+			font-family:quicksand;
+			font-size:1.5vw;
+			color:white;
+			left:4.2vw;
+		}
+
+		.KorksPic1{
+			width:30vw;
+			position: absolute;
+			display: block;
+			float:center;
+			left:65.5vw;
+			top:44.5vh;
+		}
+
+		.KorksPic2{
+			width:32vw;
+			position: absolute;
+			display: block;
+			float:center;
+			left:4vw;
+			top:107vh;
+		}
+
+		.KorksPic3{
+			width:30vw;
+			position: absolute;
+			display: block;
+			float:center;
+			left:65.5vw;
+			top:100vh;
+		}
+
+		.KorksPic4{
+			width:35vw;
+			position: absolute;
+			display: block;
+			float:center;
+			left:12vw;
+			top:171vh;
+		}
+
+		.KorksPic5{
+			width:35vw;
+			position: absolute;
+			display: block;
+			float:center;
+			left:53vw;
+			top:171vh;
+		}
+
+		.KorksPic6{
+			width:75vw;
+			position: absolute;
+			display: block;
+			float:center;
+			left:12.5vw;
+			top:268.5vh;
+		}
+
+		.KorksPic7{
+			width:25vw;
+			position: absolute;
+			display: block;
+			float:center;
+			left:37vw;
+			top:379.3vh;
+		}
+
+		.KorksPic8{
+			width:75vw;
+			position: absolute;
+			display: block;
+			float:center;
+			left:12.5vw;
+			top:440.5vh;
+		}
+
+		.KorksPic9{
+			width:20vw;
+			position: absolute;
+			display: block;
+			float:center;
+			left:10vw;
+			top:564.4vh;
+		}
+
+		.KorksPic10{
+			width:25vw;
+			position: absolute;
+			display: block;
+			float:center;
+			left:35vw;
+			top:569.4vh;
+		}
+
+		.KorksPic11{
+			width:25vw;
+			position: absolute;
+			display: block;
+			float:center;
+			left:65vw;
+			top:569.4vh;
+		}
+
+		.KorksPic12{
+			width:35vw;
+			position: absolute;
+			display: block;
+			float:center;
+			left:32.5vw;
+			top:656.6vh;
+		}
+
+		.KorksPic13{
+			width:40vw;
+			position: absolute;
+			display: block;
+			float:center;
+			left:30vw;
+			top:1036.7vh;
+		}
+
+		.KorksPic14{
+			width:40vw;
+			position: absolute;
+			display: block;
+			float:center;
+			left:30vw;
+			top:1131vh;
+		}
+
+		.KorksPic15{
+			width:75vw;
+			position: absolute;
+			display: block;
+			float:center;
+			left:12vw;
+			top:969vh;
+		}
+
+		#KorksExpPos1{
+			top:38.5vh;
+		}
+
+		#KorksExpPos2{
+			top:75vh;
+		}
+
+		#KorksExpPos3{
+			width:22vw;
+			top:117vh;
+			left:39.5vw;
+		}
+
+		#KorksExpPos4{
+			width:60vw;
+			top:163vh;
+			left:12vw;
+		}
+
+		#KorksExpPos5{
+			width:60vw;
+			top:163vh;
+			left:53vw;
+		}
+
+		#KorksExpPos6{
+			width:55vw;
+			top:246.5vh;
+			left:23vw;
+		}
+
+		#KorksExpPos7{
+			width:75vw;
+			top:1000vh;
+			left:12.2vw;
+		}
+
+		#KorksExpPos8{
+			width:75vw;
+			top:542vh;
+			left:12.2vw;
+		}
+
+		#KorksExpPos9{
+			width:75vw;
+			top:630vh;
+			left:12.2vw;
+		}
+
+		#KorksExpPos10{
+			width:75vw;
+			top:1010vh;
+			left:12.2vw;
+		}
+
+		#KorksExpPos11{
+			width:75vw;
+			top:705vh;
+			left:12.2vw;
+		}
+
+		#KorksExpPos12{
+			width:75vw;
+			top:822vh;
+			left:12.2vw;
+		}
+
+		#KorksExpPos13{
+			width:75vw;
+			top:944vh;
+			left:12.2vw;
+		}
+
+		#flipthruKorks1{
+			position:absolute;
+			width:35vw;
+			top:772.5vh;
+			left:32.5vw;
+		}
+
+		#flipthruKorks2{
+			position:absolute;
+			width:35vw;
+			top:853.3vh;
+			left:32.5vw;
+		}
+
+		#flipthruKorks3{
+			position:absolute;
+			width:35vw;
+			top:934.2vh;
+			left:32.5vw;
+		}
+	/*END OF KORKS AND KORKEASE*/
+
+	/*5BBC*/
+		.fbbcTitle{
+			width:auto;
+			position: absolute;
+			display:block;
+			font-family:quicksand;
+			font-size:4vw;
+			color:white;
+			text-align:center;
+			top:6vh;
+			left:23vw;
+		}
+
+		.fbbcExp{
+			width:50vw;
+			position:absolute;
+			display:block;
+			font-family:quicksand;
+			font-size:1.5vw;
+			color:white;
+			left:4.2vw;
+		}
+
+		.fbbcPic1{
+			width:30vw;
+			position: absolute;
+			display: block;
+			float:center;
+			left:65.6vw;
+			top:46vh;
+		}
+
+		.fbbcPic2{
+			width:50vw;
+			position: absolute;
+			display: block;
+			float:center;
+			left:4vw;
+			top:106vh;
+		}
+
+		.fbbcPic3{
+			width:70vw;
+			position: absolute;
+			display: block;
+			float:center;
+			left:14vw;
+			top:192vh;
+		}
+
+		.fbbcPic4{
+			width:50vw;
+			position: absolute;
+			display: block;
+			float:center;
+			left:25vw;
+			top:233vh;
+		}
+
+		.fbbcPic5{
+			width:30vw;
+			position: absolute;
+			display: block;
+			float:center;
+			left:65vw;
+			top:320vh;
+		}
+
+		.fbbcPic6{
+			width:55vw;
+			position: absolute;
+			display: block;
+			float:center;
+			left:22vw;
+			top:405vh;
+		}
+
+		.fbbcPic7{
+			width:35vw;
+			position: absolute;
+			display: block;
+			float:center;
+			left:11vw;
+			top:484vh;
+		}
+
+		.fbbcPic8{
+			width:33.7vw;
+			position: absolute;
+			display: block;
+			float:center;
+			left:56vw;
+			top:484vh;
+		}
+
+		.fbbcPic9{
+			width:25vw;
+			position: absolute;
+			display: block;
+			float:center;
+			left:7vw;
+			top:555vh;
+		}
+
+		.fbbcPic10{
+			width:25vw;
+			position: absolute;
+			display: block;
+			float:center;
+			left:37vw;
+			top:555vh;
+		}
+
+		.fbbcPic11{
+			width:25vw;
+			position: absolute;
+			display: block;
+			float:center;
+			left:67vw;
+			top:555vh;
+		}
+
+		.fbbcPic12{
+			width:55vw;
+			position: absolute;
+			display: block;
+			float:center;
+			left:23vw;
+			top:655vh;
+		}
+
+		.fbbcPic13{
+			width:40vw;
+			position: absolute;
+			display: block;
+			float:center;
+			left:5vw;
+			top:756vh;
+		}
+
+		.fbbcPic14{
+			width:40vw;
+			position: absolute;
+			display: block;
+			float:center;
+			left:55vw;
+			top:760vh;
+		}
+
+		#fbbcExpPos1{
+			top:38vh;
+		}
+
+		#fbbcExpPos2{
+			top:72vh;
+		}
+
+		#fbbcExpPos3{
+			width:32vw;
+			top:119vh;
+			left:65vw;
+		}
+
+		#fbbcExpPos4{
+			width:75vw;
+			top:168vh;
+			left:13vw;
+		}
+
+		#fbbcExpPos5{
+			width:54vw;
+			top:328vh;
+			left:4vw;
+		}
+
+		#fbbcExpPos6{
+			width:75vw;
+			top:384vh;
+			left:13vw;
+		}
+
+		#fbbcExpPos7{
+			width:85vw;
+			top:466vh;
+			left:16vw;
+		}
+
+		#fbbcExpPos8{
+			width:75vw;
+			top:532vh;
+			left:13vw;
+		}
+
+		#fbbcExpPos9{
+			width:75vw;
+			top:632vh;
+			left:13vw;
+		}
+
+		#fbbcExpPos10{
+			width:75vw;
+			top:729vh;
+			left:13vw;
+		}
+
+	/*END OF 5BBC*/
+
+	/*NoPause*/
+
+		.NoPauseTitle{
+			width:auto;
+			position: absolute;
+			display:block;
+			font-family:quicksand;
+			font-size:7vw;
+			color:white;
+			text-align:center;
+			top:-6vh;
+			left:35vw;
+		}
+
+		.NoPauseExp{
+			width:55vw;
+			position:absolute;
+			display:block;
+			font-family:quicksand;
+			font-size:1.5vw;
+			color:white;
+			left:4vw;
+		}
+
+		.NoPausePic1{
+			width:30vw;
+			position: absolute;
+			display: block;
+			float:center;
+			left:65vw;
+			top:35vh;
+		}
+
+		.NoPausePic2{
+			width:22vw;
+			position: absolute;
+			display: block;
+			float:center;
+			left:4.1vw;
+			top:102vh;
+		}
+
+		.NoPausePic3{
+			width:36vw;
+			position: absolute;
+			display: block;
+			float:center;
+			left:59vw;
+			top:96.5vh;
+		}
+
+		.NoPausePic4{
+			width:75vw;
+			position: absolute;
+			display: block;
+			float:center;
+			left:12vw;
+			top:169vh;
+		}
+
+		.NoPausePic5{
+			width:75vw;
+			position: absolute;
+			display: block;
+			float:center;
+			left:12vw;
+			top:283vh;
+		}
+
+		.NoPausePic6{
+			width:75vw;
+			position: absolute;
+			display: block;
+			float:center;
+			left:12vw;
+			top:408.2vh;
+		}
+
+		.NoPausePic7{
+			width:75vw;
+			position: absolute;
+			display: block;
+			float:center;
+			left:12vw;
+			top:505.5vh;
+		}
+
+		.NoPausePic8{
+			width:75vw;
+			position: absolute;
+			display: block;
+			float:center;
+			left:12vw;
+			top:603vh;
+		}
+
+		.NoPausePic9{
+			width:75vw;
+			position: absolute;
+			display: block;
+			float:center;
+			left:12vw;
+			top:700.5vh;
+		}
+
+		#NoPauseExpPos1{
+			top:40vh;
+		}
+
+		#NoPauseExpPos2{
+			width:26.1vw;
+			top:103.7vh;
+			left:30.2vw;
+		}
+
+		#NoPauseExpPos3{
+			width:75vw;
+			top:144vh;
+			left:12vw;
+		}
+
+		#NoPauseExpPos4{
+			width:73vw;
+			top:262vh;
+			left:13.3vw;
+		}
+
+		#NoPauseExpPos5{
+			width:73vw;
+			top:376vh;
+			left:13.8vw;
+		}
+
+		#NoPauseExpPos6{
+			width:73vw;
+			top:392vh;
+			left:13.8vw;
+		}
+
+		#NoPauseExpPos7{
+			width:75vw;
+			top:446vh;
+			left:12.2vw;
+		}
+
+		#NoPauseExpPos8{
+			width:75vw;
+			top:510vh;
+			left:12.2vw;
+		}
+
+		#NoPauseExpPos9{
+			width:75vw;
+			top:570vh;
+			left:12.2vw;
+		}
+
+	/*END NOPAUSE*/
+
+	/*EAMESEXCELLENCE*/
+
+		.EamesTitle{
+			width:auto;
+			position: absolute;
+			display:block;
+			font-family:quicksand;
+			font-size:7vw;
+			color:white;
+			text-align:center;
+			top:-6vh;
+			left:21.5vw;
+		}
+
+		.EamesPic1{
+			width:40vw;
+			position: absolute;
+			display: block;
+			float:center;
+			left:55vw;
+			top:40vh;
+		}
+
+		.EamesPic2{
+			width:75vw;
+			position: absolute;
+			display: block;
+			float:center;
+			left:12vw;
+			top:105vh;
+		}
+
+		.EamesPic3{
+			width:75vw;
+			position: absolute;
+			display: block;
+			float:center;
+			left:12vw;
+			top:239.5vh;
+		}
+
+		.EamesPic4{
+			width:75vw;
+			position: absolute;
+			display: block;
+			float:center;
+			left:12vw;
+			top:383.5vh;
+		}
+
+		.EamesPic5{
+			width:75vw;
+			position: absolute;
+			display: block;
+			float:center;
+			left:12vw;
+			top:497.5vh;
+		}
+
+		.EamesPic6{
+			width:75vw;
+			position: absolute;
+			display: block;
+			float:center;
+			left:12vw;
+			top:634vh;
+		} 
+
+		.EamesExp{
+			width:45vw;
+			position:absolute;
+			display:block;
+			font-family:quicksand;
+			font-size:1.5vw;
+			color:white;
+			left:4vw;
+		}
+
+		#EamesExpPos1{
+			top:43vh;
+		}
+
+		#EamesExpPos2{
+			width:75vw;
+			top:214vh;
+			left:13.5vw;
+		}
+
+		#EamesExpPos3{
+			width:75vw;
+			top:349vh;
+			left:12vw;
+		}
+
+		#EamesExpPos4{
+			width:75vw;
+			top:607vh;
+			left:12vw;
+		}
+
+		/*END EAMES EXCELLENCE*/
+
+/*END PORTFOLIO*/
+
+
+
+/*ABOUT*/
+
+a.About{
+	position:relative;
+	text-decoration: none;
+	color:white;
+}
+
+a.About:hover{
+	position:relative;
+	color:#b366ff;
+	font-style: none;
+	font-size: 5vw;
+}
+
+.AboutLinks{
+	position:relative;
+	z-index: 1;
+	display:block;
+	float:left;
+}
+
+.AboutLinks li{
+	list-style: none;
+	text-align: left;
+	font-family:quicksand;
+	font-size:5vh;
+}
+
+.aboutlogo{
+	position: relative;
+	width:7vw;
+	height:7vh;
+	display:block;
+	float:right;
+	right:0.5vw;
+}
+
+.aboutText{
+	position:absolute;
+	width:65vw;
+	font-family:quicksand;
+	font-size:3vh;
+	text-align:center;
+	color:white;
+	padding:40px;
+	left:15vw;
+}
+
+#p1{
+	font-size: 3.2vh;
+	top:0vh;
+}
+
+#p2{
+	top:16vh;
+	left:15vw;
+}
+
+#p2popup{
+	display:none;
+	position: absolute;
+	width:82vw;
+	font-size: 2.1vh;
+	left:-6vw;
+	top:14vh;
+}
+
+#p2:hover #p2popup{
+	display:block;
+}
+
+#p3{
+	top:40vh;
+	left:15vw;
+}
+
+#p3popup{
+	display:none;
+	position:absolute;
+	width:82vw;
+	font-size:2.1vh;
+	left:-6vw;
+	top:14vh;
+}
+
+#p3:hover #p3popup{
+	display:block;
+}
+
+#p4{
+	top:61vh;
+	width:90vw;
+	left:2vw;
+}
+
+#p4popup{
+	display:none;
+	position:absolute;
+	width:50vw;
+	font-size:2.1vh;
+	text-align:center;
+	left:23vw;
+	list-style:none;
+	top:15vh;
+}
+
+#p4:hover #p4popup{
+	display:block;
+} 
+
+/*END ABOUT*/
+
+
+
+
+/*RESUME*/
+
+.resumepage{
+	overflow-x:scroll;
+}
+
+.resume{
+	position:absolute;
+	font-family:quicksand;
+	text-align:left;
+	color:white;
+}
+
+#title{
+	position: relative;
+	font-size:7vh;
+	top:0vh;
+	left:9vw;
+	font-style:italic;
+}
+
+#experienceInfo1{
+	position: relative;
+	font-size:3vh;
+	width:70vw;
+	top:2vh;
+	left:9vw;
+}
+
+ #experienceExp1{
+ 	position: relative;
+	font-size:2vh;
+	width:70vw;
+	top:4vh;
+	left:9vw;
+}
+
+#experienceInfo2{
+	position: relative;
+	font-size:3vh;
+	width:60vw;
+	top:9vh;
+	left:21.5vw;
+}
+
+ #experienceExp2{
+ 	position: relative;
+	font-size:2vh;
+	width:58vw;
+	top:11vh;
+	left:21.5vw;
+}
+
+
+#experienceInfo3{
+	position: relative;
+	font-size:3vh;
+	width:58vw;
+	top:16vh;
+	left:21.5vw;
+}
+
+ #experienceExp3{
+ 	position: relative;
+	font-size:2vh;
+	width:58vw;
+	top:18vh;
+	left:21.5vw;
+}
+
+#education{
+	position: relative;
+	font-size:7vh;
+	font-style: italic;
+	top:24vh;
+	left:21.2vw;
+}
+
+#GA{
+	position: relative;
+	font-size:3vh;
+	width:58vw;
+	top:26vh;
+	left:21.2vw;
+}
+
+#GAinfo{
+	position: relative;
+	font-size:2vh;
+	width:58vw;
+	top:28vh;
+	left:21.2vw;
+}
+
+#Parsons{
+	position: relative;
+	font-size:3vh;
+	width:58vw;
+	top:33vh;
+	left:21.2vw;
+}
+
+#Parsonsinfo{
+	position: relative;
+	font-size:2vh;
+	width:58vw;
+	top:35vh;
+	left:21.2vw;
+}
+
+#skills{
+	position: relative;
+	font-size:7vh;
+	font-style: italic;
+	top:41vh;
+	left:21.2vw;
+}
+
+#Adobe{
+	position: relative;
+	font-size:3vh;
+	width:58vw;
+	top:43vh;
+	left:21.2vw;
+}
+
+#Adobeinfo{
+	position: relative;
+	font-size:2vh;
+	width:58vw;
+	top:45vh;
+	left:21.2vw;
+}
+
+#Microsoft{
+	position: relative;
+	font-size:3vh;
+	width:58vw;
+	top:50vh;
+	left:21.2vw;
+}
+
+#Microinfo{
+	position: relative;
+	font-size:2vh;
+	width:58vw;
+	top:52vh;
+	left:21.2vw;
+}
+
+#Languages{
+	position: relative;
+	font-size:3vh;
+	width:58vw;
+	top:57vh;
+	left:21.2vw;
+}
+
+#Langinfo{
+	position: relative;
+	font-size:2vh;
+	width:58vw;
+	top:59vh;
+	left:21.2vw;
+}
+
+/*END RESUME*/
+
+
+
+
+
+
+
+

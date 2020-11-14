@@ -1,0 +1,20 @@
+@charset "utf-8";
+	.NormalCharacterStyle
+{
+	font-family : Seravek;
+	font-size : 48px;
+	color : #C81E6A;
+	color : rgb(200, 30, 106);
+}
+.NormalCharacterStyle1
+{
+	font-family : Seravek;
+	font-size : 53px;
+	color : #C81E6A;
+	color : rgb(200, 30, 106);
+}
+.BOE5AV_1_
+{
+	background-image : url(BOE5AV_1_.png);
+	background-repeat : no-repeat;
+}
